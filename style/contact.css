@@ -32,11 +32,11 @@ form { /* Cadre du formulaire */
    border-radius:10px;
    box-sizing:border-box;
    padding:15px;
-   width:auto;
-   margin:auto;
+   width:50%;
+   margin: auto;
    background-color: #282e34;
    border-color: transparent; 
-   top : 10%;
+   
    /*left :30% ;*/
 
    opacity:0.8;
@@ -57,7 +57,7 @@ textarea {
   vertical-align: top;
 
   /* Pour donner assez de place pour écrire du texte */
-  width: 30em;
+  width: 70%;
   height: 10em;
 }
 
@@ -71,3 +71,44 @@ h1 {
    font-size: 32px;
 }
 
+#carto {
+    padding-top: 10px;
+    line-height: 0;
+}
+
+#carto h1 {
+    text-align: left;
+    line-height: normal;
+}
+
+#carto img:nth-child(2) {
+    float: right;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    #carto h1 {
+        text-align: center;
+    }
+    #carto img:nth-child(2) {
+        display: none;
+    }
+    #carto img:nth-child(3), #carto img:nth-child(4) {
+        width: 100%;
+    }
+}
+
+section{
+    border:2px solid gray;
+   border-radius:10px;
+   box-sizing:border-box;
+   padding:15px;
+   width:50%;
+   margin: 5% auto;
+   background-color: #282e34;
+   border-color: transparent; 
+   
+   /*left :30% ;*/
+
+   opacity:0.8;
+} 

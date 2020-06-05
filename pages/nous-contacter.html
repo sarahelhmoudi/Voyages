@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="Sarah EL HMOUDI, Teeri MORENO, Yanis BENHALIMA et Julien LIEUTAUD">
+        <meta name="author" content="Sarah EL HMOUDI, Teeri MORENO, Yanis BENHALIMA et Julien LIEUTAUD">
         <meta name="description" content="Contacter-nous pour plus de renseignement">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Contactez-nous pour plus de renseignement</title>
+        
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
@@ -27,7 +26,7 @@ and open the template in the editor.
         <nav class="header-nav">
             <ul>
                 <li><a class="active" href="../index.html">Accueil</a></li>
-                <li><a href="../pages/Corse.html">Corse</a></li>
+                <li><a href="../pages/Indonésie.html">Indonésie</a></li>
                 <li><a href="../pages/Tanzanie.html">Tanzanie</a></li>
                 <li><a href="../pages/Tahiti.html">Tahiti</a></li>
                 <li><a href="../pages/nous-contacter.html">Nous contacter</a></li>
@@ -37,30 +36,46 @@ and open the template in the editor.
         
         <div id="after_submit"></div>
         
-        <div class ="pimg1">
-        <form id="signaletique">
-
-            <h2><B>Nous contacter</B></h2>
-
-       <label>Nom</label><input type="text" id="nom" required /><br />
-       <label>Prénom</label><input type="text" id="prenom" required /><br />
-       <label>Date de naissance</label><input type="date" id="datenais" required /><br />
-       <label>Courriel</label><input type="email" id="email" required /><br />
-       
-       <div id="bouton">
-        <input type="checkbox" name="options[]" value="Réclamation">&nbsp;Réclamation<br />
-        <input type="checkbox" name="options[]" value="Renseignement">&nbsp;Renseignement<br />
-        <input type="checkbox" name="options[]" value="Satifaction">&nbsp;Satisfaction <br />
-        <input type="checkbox" name="options[]" value="Autre...">&nbsp;Autre : <input type="text" required><br /><br />
-       
-       </div>
-        <label>Message : <br />(250 caractère max.) </label><textarea id="msg" name="user_message"></textarea>
         
-        
-    
+            <div class ="pimg1"><br>
+            
+            <section id="carto">
+                <h2><B>Nous localiser :<B></h2>
+                                   
+                    <img src="https://open.mapquestapi.com/staticmap/v5/map?key=ueBAzMQu11ykR5zGnwEYlBoEfaxe0Udo
+                    &locations=L'Estaque, Marseille, BR, Provence-Alpes-
+                    Côte d'Azur, France métropolitaine, 13016, France|https://assets.mapquestapi.com/icon/v2/flag-VandC@2x.png&zoom=10&size=306,300"
+                    alt="Carte OpenStreetMap statique avec la ville de Voyage&Co">
+                    
+                    <img src="https://open.mapquestapi.com/staticmap/v5/map?key=ueBAzMQu11ykR5zGnwEYlBoEfaxe0Udo
+                    &locations=43.3619943, 5.3147335|https://assets.mapquestapi.com/icon/v2/flag-VandC@2x.png&zoom=14&size=306,300"
+                    alt="Carte OpenStreetMap statique avec l'emplacement de Voyage&Co">
+               </section>
+            </div>
+            <div class ="pimg1">
+            <form id="signaletique">
+                
 
-       <input type="submit" id="submit" value="Envoyer" />
-    </form>
+
+                <h2><B>Nous contacter</B></h2>
+
+               <label>Nom</label><input type="text" id="nom" required /><br />
+               <label>Prénom</label><input type="text" id="prenom" required /><br />
+               <label>Date de naissance</label><input type="date" id="datenais" required /><br />
+               <label>Courriel</label><input type="email" id="email" required /><br />
+
+                <div id="bouton">
+                    <input type="checkbox" name="options[]" value="Réclamation">&nbsp;Réclamation<br />
+                    <input type="checkbox" name="options[]" value="Renseignement">&nbsp;Renseignement<br />
+                    <input type="checkbox" name="options[]" value="Satifaction">&nbsp;Satisfaction <br />
+                    <input type="checkbox" name="options[]" value="Autre...">&nbsp;Autre : <input type="text" required><br /><br />
+                </div>
+           
+                <label>Message : <br />(250 caractère max.) </label><textarea id="msg" name="user_message"></textarea>
+        
+                <input type="submit" id="submit" value="Envoyer" />
+            </form>
+        </div>
         </div>
     <footer>
             <p>&copy2020 Voyage&Co - Crée par
@@ -69,7 +84,6 @@ and open the template in the editor.
                 </a>
             </p>
     </footer>
-
     </body>
 </html>
 
