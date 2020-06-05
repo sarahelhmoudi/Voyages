@@ -11,11 +11,20 @@
   <link
     href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
     rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-    <div class="pimg1" id="haut">
+  <div class="pimg1" id="haut">
     <div class="ptext">
       <a href="#sect1" class="js-scrollTo">
         <span class="border" class="rounded">
@@ -28,14 +37,55 @@
   <div class="section section-light page page-header" id="sect1">
     <h2>T-Shirts</h2>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <p>Tshirt1</p>
+      <div class="card" style="width: 18rem;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/image3.jpg" width="400rem">
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/image2.jpg" width="400rem">
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/image1.jpg" width="400rem">
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
-        <div class="col-lg-6">
-          <p>Tshirt2</p>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+      <div class="col-lg-6">
+        <p>Tshirt2</p>
+      </div>
+
       <div class="row">
         <div class="col-lg-6">
           <p>Tshirt1</p>
@@ -95,7 +145,7 @@
     </div>
   </a>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
       $('.js-scrollTo').on('click', function () { // Au clic sur un élément
@@ -107,6 +157,7 @@
         return false;
       });
     });
-  </script>-->
+  </script>
 </body>
+
 </html>
