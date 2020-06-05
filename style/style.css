@@ -30,14 +30,11 @@ body, html{
 }
 
 .pimg2{
-  background-image:url('../img/image1.jpg');
+  background-image:url('../img/sea.jpg');
   min-height:400px;
 }
 
-.pimg3{
-  background-image:url('../img/image3.jpg');
-  min-height:400px;
-}
+
 
 .section{
   text-align:center;

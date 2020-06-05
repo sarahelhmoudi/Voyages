@@ -28,10 +28,10 @@
         <nav class="header-nav">
             <ul>
                 <li><a class="active" href="index.html">Accueil</a></li>
-                <li><a href="pages/Indonésie.html">Indonésie</a></li>
-                <li><a href="pages/Tanzanie.html">Tanzanie</a></li>
-                <li><a href="pages/Tahiti.html">Tahiti</a></li>
-                <li><a href="pages/nous-contacter.html">Nous contacter</a></li>
+                <li><a href="Indonésie.html">Indonésie</a></li>
+                <li><a href="Tanzanie.html">Tanzanie</a></li>
+                <li><a href="Tahiti.html">Tahiti</a></li>
+                <li><a href="nous-contacter.html">Nous contacter</a></li>
             </ul>
 	</nav>
     </header>
@@ -44,67 +44,8 @@
         </div>
     </div>
 
-    <div class="section section-light page page-header" id="sect1">
-        
-        <h2><B>Nos best destination<B></h2>
-        <div class="container">
-            <div class="card" style="width: 18rem;">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                        </ul>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/image3.jpg" width="400rem">
-                                <div class="carousel-caption">
-                                    <h3><B>Tahiti<B></h3>
-                                    <p>We had such a great time in LA!</p>
-                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                    <img src="img/image2.jpg" width="400rem">
-                                    <div class="carousel-caption">
-                                        <h3>Chicago</h3>
-                                        <p>Thank you, Chicago!</p>
-                                    </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/image1.jpg" width="400rem">
-                                    <div class="carousel-caption">
-                                        <h3>New York</h3>
-                                        <p>We love the Big Apple!</p>
-                                    </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span></a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span></a>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                      content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <p>Tshirt2</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                  <p>Tshirt1</p>
-                </div>
-                <div class="col-lg-6">
-                  <p>Tshirt2</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-     <div class="pimg1">
+   
+     <div class="pimg2">
             <div class="ptext">
                 <span class="border trans">
                     Qui sommes-nous ?
@@ -116,28 +57,11 @@
             <h3>4 étudiants - 1 seul but...  vous faire rêver !</h3>
             <p>
                 Passionnés de voyage et d'aventure. 
-                Nous avons réunis nos plus belle expérience à travers le monde, afin de vous en faire profiter aux meilleurs prix !              
+                Nous avons réunis nos plus belle expérience à travers le monde, afin de vous faire profiter des meilleurs offres !              
             </p>
         </section>
 
-  <div class="pimg1">
-    <div class="ptext">
-      <span class="border trans">
-        Image Three Text
-      </span>
-    </div>
-  </div>
-
-  <section class="section section-dark">
-    <h2>Section Three</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi,
-      fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum
-      praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates
-      inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat
-      dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
-    </p>
-  </section>
+ 
 
     <footer>
         <p>&copy2020 Voyage&Co - Crée par
@@ -154,7 +78,7 @@
         var page = $(this).attr('href'); // Page cible
         var speed = 800; // Durée de l'animation (en ms)
         $('html, body').animate({
-          scrollTop: $(page).offset().top
+          scrollTop: $(page).offset().top //Scroll
         }, speed); // Go
         return false;
       });
