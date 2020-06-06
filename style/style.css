@@ -9,11 +9,9 @@ body, html{
 }
 
 img{
-
   width:100%;
   height: auto;
   max-height: fit-content;
-
 }
 
 .pimg1, .pimg2, .pimg3{
