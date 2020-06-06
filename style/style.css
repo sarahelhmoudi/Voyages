@@ -8,6 +8,14 @@ body, html{
   columns: #999;
 }
 
+img{
+
+  width:100%;
+  height: auto;
+  max-height: fit-content;
+
+}
+
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.80;
@@ -29,7 +37,7 @@ body, html{
 }
 
 .pimg2{
-  background-image:url('../img/image1.jpg');
+  background-image:url('../img/voy.jpg');
   min-height:400px;
 }
 
@@ -38,9 +46,15 @@ body, html{
   min-height:400px;
 }
 
+h2{
+
+  margin-bottom: 2rem;
+
+}
+
 .section{
   text-align:center;
-  padding:50px 80px;
+  padding:2%;
 }
 
 .container .section-light{
@@ -78,7 +92,7 @@ body, html{
 .ptext .border{
   background-color:#16A085;
   color:white;
-  padding:20px;
+  padding:1rem;
 }
 
 .ptext .border.trans{
