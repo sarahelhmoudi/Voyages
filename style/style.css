@@ -36,14 +36,6 @@ img {
     width: auto;
 }
 
-<<<<<<< HEAD
-.pimg2{
-  background-image:url('../img/sea.jpg');
-  min-height:400px;
-}
-
-
-=======
 .pimg2 {
     background-image: url('../img/voy.jpg');
     min-height: 400px;
@@ -53,7 +45,6 @@ img {
     background-image: url('../img/image3.jpg');
     min-height: 400px;
 }
->>>>>>> dev
 
 h2 {
     margin-bottom: 2rem;
