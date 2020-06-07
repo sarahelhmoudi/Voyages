@@ -100,7 +100,7 @@
                 </h2>
                 <div class="row">
                     <div class="col-25">
-                        <label >Nom</label>
+                        <label>Nom</label>
                     </div>
                     <div class="col-25">
                         <input type="text" id="nom" required />
@@ -108,7 +108,7 @@
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label >Prénom</label>
+                        <label>Prénom</label>
                     </div>
                     <div class="col-25">
                         <input type="text" id="prenom" required />
@@ -116,7 +116,7 @@
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label >Date de naissance</label>
+                        <label>Date de naissance</label>
                     </div>
                     <div class="col-25">
                         <input type="date" id="datenais" required />
@@ -124,30 +124,37 @@
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label >Courriel</label>
+                        <label>Courriel</label>
                     </div>
                     <div class="col-25">
                         <input type="email" id="email" required />
                     </div>
                 </div>
                 <div id="bouton">
-                    <input type="checkbox" name="options[]" value="Réclamation"style="font-size: 2vw;" >&nbsp;Réclamation<br />
-                    <input type="checkbox" name="options[]" value="Renseignement"style="font-size: 2vw;" >&nbsp;Renseignement<br />
-                    <input type="checkbox" name="options[]" value="Satifaction" style="font-size: 2vw;">&nbsp;Satisfaction <br />
-                    <input type="checkbox" name="options[]" value="Autre..." style="font-size: 2vw;">&nbsp;Autre : <input type="text"
-                        required><br /><br />
+                    <input type="checkbox" name="options[]" value="Réclamation"
+                        style="font-size: 2vw;">&nbsp;Réclamation<br />
+                    <input type="checkbox" name="options[]" value="Renseignement"
+                        style="font-size: 2vw;">&nbsp;Renseignement<br />
+                    <input type="checkbox" name="options[]" value="Satifaction"
+                        style="font-size: 2vw;">&nbsp;Satisfaction <br />
+                    <input type="checkbox" name="options[]" value="Autre..." style="font-size: 2vw;">&nbsp;Autre :
+                    <input type="text" required><br /><br />
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label >Message : </label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="msg" name="user_message"  placeholder="(250 caractère max.)"></textarea>
+                        <label>Message : </label>
                     </div>
                 </div>
                 <div class="row">
-                    <input type="submit" id="submit" value="Envoyer" />
+                    <div class="col-75">
+                        <textarea id="msg" name="user_message" placeholder="(250 caractère max.)"></textarea>
+                    </div>
+                    <div class="col">
+                        <input type="submit" id="submit" value="Envoyer" />
+                    </div>
                 </div>
+
+
     </div>
     </form>
     </section>

@@ -23,7 +23,7 @@ form {
     border-radius: 10px;
     box-sizing: border-box;
     padding: 9px;
-    width: 60%;
+    width: 70%;
     margin: auto;
     background-color: #282e34;
     border-color: transparent;
@@ -62,7 +62,9 @@ h1 {
 
 div .row {
     margin: 0;
+    text-align: start;
 }
+
 
 #carto {
     padding-top: 10px;
@@ -112,7 +114,6 @@ div .row {
   
   input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
