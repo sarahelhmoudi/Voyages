@@ -1,7 +1,3 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
   padding-top: 0rem;
   padding-bottom: 3rem;
@@ -19,7 +15,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/borabora.jpg);
+  background-image: url('../img/borabora.jpg');
   background-size: 200px 200px ;
 
 }
@@ -29,7 +25,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/mooreaC.jpg);
+  background-image: url('../img/mooreaC.jpg');
   background-size: 200px 200px ;
 
 }
@@ -39,7 +35,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/maupiti.jpg);
+  background-image: url('../img/maupiti.jpg');
   background-size: 200px 200px ;
 
 }
@@ -49,7 +45,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/plongée.jpg);
+  background-image: url('../img/plongée.jpg');
   background-size: 500px 500px ;
 }
 #box5
@@ -58,7 +54,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/foret.png);
+  background-image: url('../img/foret.png');
   background-size: 500px 500px ;
 }
 #box6
@@ -67,7 +63,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/tiki.jpg);
+  background-image: url('../img/tiki.jpg');
   background-size: 500px 500px ;
 }
 #box7
@@ -80,7 +76,7 @@ background-position: center;
   margin-top: auto;
 
   margin-bottom: 3px;
-  background-image: url(../css_perso/image/voyage.jpg);
+  background-image: url('../img/voyage.jpg');
   background-size: 1100px 500px ;
 
 }
@@ -92,7 +88,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/zanzi.jpg);
+  background-image: url('../img/zanzi.jpg');
   background-size: 200px 200px ;
 
 }
@@ -102,7 +98,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/dodoma.jpg);
+  background-image: url('../img/dodoma.jpg');
   background-size: 200px 200px ;
 
 }
@@ -112,7 +108,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/ngorongo.jpg);
+  background-image: url('../img/ngorongo.jpg');
   background-size: 200px 200px ;
 
 }
@@ -122,16 +118,14 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/cratère.jpg);
+  background-image: url('../img/cratère.jpg');
   background-size: 500px 500px ;
 }
 #box5_t
 {
   width: 500px;
   height: 500px;
-  
-  
-  background-image: url(../css_perso/image/safari.jpg);
+  background-image: url('../img/safari.jpg');
   background-size: 500px 500px ;
 }
 #box6_t
@@ -140,7 +134,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/lac.jpg);
+  background-image: url('../img/lac.jpg');
   background-size: 500px 500px ;
 }
 #box7_t
@@ -153,7 +147,7 @@ background-position: center;
   margin-top: auto;
 
   margin-bottom: 3px;
-  background-image: url(../css_perso/image/voyage.jpg);
+  background-image: url('../img/voyage.jpg');
   background-size: 1100px 500px ;
 
 }
@@ -165,7 +159,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/bali.jpg);
+  background-image: url('../img/bali.jpg');
   background-size: 200px 200px ;
 
 }
@@ -175,7 +169,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/jakarta.jpg);
+  background-image: url('../img/jakarta.jpg');
   background-size: 200px 200px ;
 
 }
@@ -185,7 +179,7 @@ background-position: center;
   height: 200px;
   
   clip-path:ellipse(50% 50%);
-  background-image: url(../css_perso/image/ubud.jpg);
+  background-image: url('../img/ubud.jpg');
   background-size: 200px 200px ;
 
 }
@@ -195,7 +189,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/temple.jpg);
+  background-image: url('../img/temple.jpg');
   background-size: 500px 500px ;
 }
 #box5_i
@@ -204,7 +198,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/plages.jpg);
+  background-image: url('../img/plages.jpg');
   background-size: 500px 500px ;
 }
 #box6_i
@@ -213,7 +207,7 @@ background-position: center;
   height: 500px;
   
   
-  background-image: url(../css_perso/image/gastronomie.jpg);
+  background-image: url('../img/gastronomie.jpg');
   background-size: 500px 500px ;
 }
 #box7_i
@@ -226,10 +220,15 @@ background-position: center;
   margin-top: auto;
 
   margin-bottom: 3px;
-  background-image: url(../css_perso/image/voyage.jpg);
+  background-image: url('../img/voyage.jpg');
   background-size: 1100px 500px ;
 
 }
+/*.carousel-img{
+  width:10;
+  height: auto;
+  max-height: fit-content;
+}*/
 #color
 {
   width: 1500px;
