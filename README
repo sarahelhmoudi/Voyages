@@ -1,9 +1,11 @@
 Un projet de :
 Sarah El Hmoudi @sarahelhmoudi
-Yanis Benhalima @yanwam12
+Yanis Benhalima @yanwan12
 Teeri Moreno    @morenoteeri
 Julien Lieutaud @julienlieutaud
 
 A cause d'un probleme de création de branche a partir de github.com les commits des pages de chaques destinations et les pages des formulaires codées par Teeri n'apparaitront pas
 
 Il reste encore quelques bug sur la page contact au niveau du bouton envoyer ainsi qu'un probleme de position du texte dans les carousels de la page d'acceuil
+
+Implémentation de la fonction jquery de scroll automatique en cours

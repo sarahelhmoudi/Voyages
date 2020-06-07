@@ -12,10 +12,19 @@
 
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+        rel="stylesheet" type="text/css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="avion1.ico">
@@ -37,15 +46,15 @@
 
     <div class="pimg1" id="haut">
         <div class="ptext">
-            <a href="index.html" class="js-scrollTo" >
+            <a href="index.html" class="js-scrollTo">
                 <span class="border rounded" style="font-size: 3vw;">
-          Voyage&Co
-        </span>
+                    Voyage&Co
+                </span>
             </a>
         </div>
     </div>
 
-    <div class="section section-light page page-header" id="sect1">
+    <div class="section section-light page page-header sect1">
         <h2> Nos Voyages</h2>
         <div class="container cardcont">
             <div class="card" style="width: 18rem;">
@@ -179,16 +188,17 @@
 
     <div class="pimg2">
         <div class="ptext">
-            <span class="border trans"  style="font-size: 3vw;">
-        Qui sommes-nous ?
-      </span>
+            <span class="border trans" style="font-size: 3vw;">
+                Qui sommes-nous ?
+            </span>
         </div>
     </div>
 
     <section class="section section-dark">
         <h3>4 étudiants - 1 seul but... vous faire rêver !</h3>
         <p>
-            Passionnés de voyage et d'aventure. Nous avons réunis nos plus belle expérience à travers le monde, afin de vous faire profiter des meilleurs offres !
+            Passionnés de voyage et d'aventure. Nous avons réunis nos plus belle expérience à travers le monde, afin de
+            vous faire profiter des meilleurs offres !
         </p>
     </section>
 
@@ -196,20 +206,19 @@
 
     <footer>
         <p style="font-size: 1vw;">&copy2020 Voyage&Co - Crée par
-            <a href="https://github.com/sarahelhmoudi/Voyages"  style="font-size: 1vw;">
-        Sarah EL HMOUDI, Teeri MORENO, Yanis BENHALIMA et Julien LIEUTAUD.
-      </a>
+            <a href="https://github.com/sarahelhmoudi/Voyages" style="font-size: 1vw;">
+                Sarah EL HMOUDI, Teeri MORENO, Yanis BENHALIMA et Julien LIEUTAUD.
+            </a>
         </p>
     </footer>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-                var page = $(this).attr('href'); // Page cible
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+        $(document).ready(function () {
+            $("js-scrollTo").on('click', function () { // Au clic sur un élément
                 var speed = 800; // Durée de l'animation (en ms)
                 $('html, body').animate({
-                    scrollTop: $(page).offset().top //Scroll
+                    scrollTop: $(".sect1").offset().top //Scroll
                 }, speed); // Go
                 return false;
             });
