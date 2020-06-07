@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 juin 2020, 22:28:58
+    Author     : sarah.el-hmoudi
+*/
+body, html{
+  height:100%;
+  margin:0;
+  font-size:13px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  columns:#666;
+}
+h2 {
+  font-size:1.6em;
+  color:#16A085;
+}
+label{ /* Pour alignement des zones de saisie */
+   width:150px;
+   display:inline-block;
+   margin-bottom:20px;
+   color : white;
+}
+form { /* Cadre du formulaire */
+   border:2px solid gray;
+   border-radius:10px;
+   box-sizing:border-box;
+   padding:15px;
+   width:50%;
+   margin: auto;
+   background-color: #282e34;
+   border-color: transparent; 
+   
+   /*left :30% ;*/
+
+   opacity:0.8;
+} 
+input {
+   border:2px solid gray;
+   border-radius:5px;
+   
+}
+#submit{ /* Bouton Envoyer */
+   display:block;
+   width:130px;
+   height:40px;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  width: 70%;
+  height: 10em;
+}
+
+#bouton
+{
+    color : white;
+
+}
+h1 {
+   font-family: calibri, serif;
+   font-size: 32px;
+}
+
+#carto {
+    padding-top: 10px;
+    line-height: 0;
+}
+
+#carto h1 {
+    text-align: left;
+    line-height: normal;
+}
+
+#carto img:nth-child(2) {
+    float: right;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    #carto h1 {
+        text-align: center;
+    }
+    #carto img:nth-child(2) {
+        display: none;
+    }
+    #carto img:nth-child(3), #carto img:nth-child(4) {
+        width: 100%;
+    }
+}
+
+section{
+    border:2px solid gray;
+   border-radius:10px;
+   box-sizing:border-box;
+   padding:15px;
+   width:50%;
+   margin: 5% auto;
+   background-color: #282e34;
+   border-color: transparent; 
+   
+   /*left :30% ;*/
+
+   opacity:0.8;
+} 
