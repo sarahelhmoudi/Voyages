@@ -9,11 +9,20 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+        rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
+    <script src="../js/nolark.js"></script>
     <link href="../style/bootstrap.css" rel="stylesheet">
     <link href="../style/carrousel.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
@@ -66,13 +75,13 @@
 
                         <label for="choix">Destination</label>
                         <select class="custom-select d-block w-100" id="choix" required>
-              <option value="">Choisir</option>
-              <option>Bora-Bora</option>
-              <option>Maupiti</option>
-              <option>Moorea</option>
-              
+                            <option value="">Choisir</option>
+                            <option>Bora-Bora</option>
+                            <option>Maupiti</option>
+                            <option>Moorea</option>
 
-            </select>
+
+                        </select>
 
 
                         <div class="input-group-append">
@@ -83,7 +92,7 @@
             </div>
             <div class="col-md-8 order-md-1">
                 <h4 class="mb-3">Informations personelles</h4>
-                <form class="needs-validation" novalidate>
+                <form id="form_contact" class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="firstName">Nom</label>
@@ -129,19 +138,19 @@
                         <div class="col-md-5 mb-3">
                             <label for="country">Pays</label>
                             <select class="custom-select d-block w-100" id="country" required>
-              <option value="">Choisir</option>
-              <option>France</option>
+                                <option value="">Choisir</option>
+                                <option>France</option>
 
-            </select>
+                            </select>
 
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="state">Région</label>
                             <select class="custom-select d-block w-100" id="state" required>
-              <option value="">Choisir</option>
-              <option>Var</option>
+                                <option value="">Choisir</option>
+                                <option>Var</option>
 
-            </select>
+                            </select>
 
                         </div>
                         <div class="col-md-3 mb-3">
@@ -158,7 +167,8 @@
 
                     <div class="d-block my-3">
                         <div class="custom-control custom-radio">
-                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked
+                                required>
                             <label class="custom-control-label" for="credit">Carte de crédit</label>
                         </div>
 
@@ -206,7 +216,7 @@
           </div>-->
                     </div>
                     <hr class="mb-4">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Finaliser l'inscription</button>
+                    <button onclick="validEnvoi();" class="btn btn-primary btn-lg btn-block" type="submit">Finaliser l'inscription</button>
                 </form>
             </div>
         </div>
@@ -221,7 +231,9 @@
             </ul>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <script>
         window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
     </script>

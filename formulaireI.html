@@ -20,6 +20,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+  <script src="../js/nolark.js"></script>
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
   <link href="../style/bootstrap.css" rel="stylesheet">
@@ -29,7 +30,7 @@
 </head>
 
 <body class="bg-light">
-  
+
   <div class="container">
     <div class="py-5 text-center">
       <img class="d-block mx-auto mb-4" src="./img/indonesie1.jpg" alt="" width="72" height="72">
@@ -77,20 +78,15 @@
               <option>Bali</option>
               <option>Jakarta</option>
               <option>Ubud</option>
-
-
             </select>
-
-
             <div class="input-group-append">
-
             </div>
           </div>
         </form>
       </div>
       <div class="col-md-8 order-md-1">
         <h4 class="mb-3">Informations personelles</h4>
-        <form class="needs-validation" novalidate>
+        <form id="form_contact" class="needs-validation" novalidate>
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="firstName">Nom</label>
@@ -202,7 +198,7 @@
 
           </div>
           <hr class="mb-4">
-          <button class="btn btn-primary btn-lg btn-block" type="submit">Finaliser l'inscription</button>
+          <button onclick="validEnvoi();" class="btn btn-primary btn-lg btn-block" type="submit">Finaliser l'inscription</button>
         </form>
       </div>
     </div>
