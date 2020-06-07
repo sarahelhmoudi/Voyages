@@ -9,13 +9,15 @@ html {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: x-large;
     color: #16A085;
 }
 
  /**/label {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
     color: white;
+    text-align : left ;
+    
 }
 
 form {
@@ -23,12 +25,12 @@ form {
     border-radius: 10px;
     box-sizing: border-box;
     padding: 9px;
-    width: 60%;
+    width: 50% ;
     margin: auto;
     background-color: #282e34;
     border-color: transparent;
-    /*left :30% ;*/
     opacity: 0.8;
+    
 }
 
 input {
@@ -111,8 +113,8 @@ div .row {
   }
   
   input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
+    width: 80%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
